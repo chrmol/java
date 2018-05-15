@@ -22,12 +22,15 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="17">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
                 <element signature="e#539#540#0" expanded="true" />
                 <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,7 +39,7 @@
       <file leaf-file-name="Ball.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Ball.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="340">
               <caret line="23" column="38" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,7 +51,7 @@
       <file leaf-file-name="Racquet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Racquet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="272">
               <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,8 +80,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Christian" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -102,6 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,8 +136,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,6 +190,14 @@
       <option name="presentableId" value="Default" />
       <updated>1523047939311</updated>
     </task>
+    <task id="LOCAL-00001" summary="enkeltspiller ferdig">
+      <created>1523120604094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523120604094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -188,14 +205,13 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5052083" side_tool="true" visible="true" weight="0.30499467" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49479166" weight="0.30499467" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49479166" weight="0.30499467" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -205,18 +221,23 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953125" weight="0.37619555" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953125" weight="0.37619555" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.32943678" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="enkeltspiller ferdig" />
+    <option name="LAST_COMMIT_MESSAGE" value="enkeltspiller ferdig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,12 +247,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Racquet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -271,9 +340,12 @@
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -288,7 +360,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/KeyListener.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="340">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -298,7 +370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Racquet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="272">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -318,12 +390,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="17">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
